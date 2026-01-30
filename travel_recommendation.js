@@ -17,7 +17,7 @@ function searchCondition(event) {
     return;
   }
 
-  fetch('mmm.json')
+  fetch('travel_recommendation_api.json')
     .then(res => res.json())
     .then(data => {
       const inputLower = input.toLowerCase();
